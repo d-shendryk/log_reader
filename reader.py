@@ -28,7 +28,7 @@ if __name__ == '__main__':
         line = linecache.getline(LOG_FILE_NAME, line_number)
 
         if line:
-            print(line)
+            print(line, end='')
             line_number += 1
 
         else:
